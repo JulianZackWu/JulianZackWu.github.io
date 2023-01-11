@@ -11349,29 +11349,59 @@ figure.highlight.foldable div.level-left {
 .gist .file {
   all: initial;
 }
+#toc .menu-list li ul,
+max-height: calc(100vh - 22px) .menu-list li ul,
+overflow-y: scroll .menu-list li ul,
 .widget .menu-list li ul {
   margin-right: 0;
 }
+#toc .menu-list .level,
+max-height: calc(100vh - 22px) .menu-list .level,
+overflow-y: scroll .menu-list .level,
 .widget .menu-list .level {
   margin-bottom: 0;
 }
+#toc .menu-list .level .level-left,
+max-height: calc(100vh - 22px) .menu-list .level .level-left,
+overflow-y: scroll .menu-list .level .level-left,
 .widget .menu-list .level .level-left,
+#toc .menu-list .level .level-right,
+max-height: calc(100vh - 22px) .menu-list .level .level-right,
+overflow-y: scroll .menu-list .level .level-right,
 .widget .menu-list .level .level-right,
+#toc .menu-list .level .level-item,
+max-height: calc(100vh - 22px) .menu-list .level .level-item,
+overflow-y: scroll .menu-list .level .level-item,
 .widget .menu-list .level .level-item {
   flex-shrink: 1;
 }
+#toc .menu-list .level .level-left,
+max-height: calc(100vh - 22px) .menu-list .level .level-left,
+overflow-y: scroll .menu-list .level .level-left,
 .widget .menu-list .level .level-left,
+#toc .menu-list .level .level-right,
+max-height: calc(100vh - 22px) .menu-list .level .level-right,
+overflow-y: scroll .menu-list .level .level-right,
 .widget .menu-list .level .level-right {
   align-items: flex-start;
 }
+#toc .menu-list .tag,
+max-height: calc(100vh - 22px) .menu-list .tag,
+overflow-y: scroll .menu-list .tag,
 .widget .menu-list .tag {
   background: $light-grey;
   color: $white-invert;
 }
+#toc .tags .tag:first-child,
+max-height: calc(100vh - 22px) .tags .tag:first-child,
+overflow-y: scroll .tags .tag:first-child,
 .widget .tags .tag:first-child {
   background: #3273dc;
   color: #fff;
 }
+#toc .tags .tag:last-child,
+max-height: calc(100vh - 22px) .tags .tag:last-child,
+overflow-y: scroll .tags .tag:last-child,
 .widget .tags .tag:last-child {
   background: $light-grey;
   color: $white-invert;
@@ -11410,10 +11440,6 @@ figure.highlight.foldable div.level-left {
   .widget.card#toc.is-active,
   #toc-mask.is-active {
     display: block;
-  }
-  #toc {
-    max-height: calc(100vh - 22px);
-    overflow-y: scroll;
   }
 }
 .donate {
